@@ -16,6 +16,7 @@ Example:
     os.system(f"onnxslim {f} {f} && open {f}")  # pip install onnxslim
     ```
 """
+from .LDConv import LDConv
 
 from .block import (
     C1,
@@ -162,4 +163,5 @@ __all__ = (
     "TorchVision",
     "Index",
     "A2C2f",
+    "LDConv",
 )

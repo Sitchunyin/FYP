@@ -167,4 +167,6 @@ __all__ = (
     "A2C2f",
     "LDConv",
     "GSConv",
+    "C3k2_Faster_CGLU",
+    "C3k2_Faster_CGLU_v2",
 )

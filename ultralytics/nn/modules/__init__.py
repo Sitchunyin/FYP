@@ -17,6 +17,7 @@ Example:
     ```
 """
 from .LDConv import LDConv
+from .C3K2_Faster_CGLU import C3k2_Faster_CGLU, C3k2_Faster_CGLU_v2
 
 from .block import (
     C1,

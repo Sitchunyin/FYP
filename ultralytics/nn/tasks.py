@@ -67,8 +67,7 @@ from ultralytics.nn.modules import (
     GSConv,
     C3k2_Faster_CGLU,
     C3k2_Faster_CGLU_v2,
-    VoVGSCSP,
-    VoVGSCSPC,
+
 
 )
 from ultralytics.utils import DEFAULT_CFG_DICT, DEFAULT_CFG_KEYS, LOGGER, colorstr, emojis, yaml_load

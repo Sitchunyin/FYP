@@ -60,6 +60,7 @@ from .block import (
     ResNetLayer,
     SCDown,
     TorchVision,
+    ECAAttention,
 )
 from .conv import (
     CBAM,
@@ -169,4 +170,5 @@ __all__ = (
     "GSConv",
     "C3k2_Faster_CGLU",
     "C3k2_Faster_CGLU_v2",
+    "ECAAttention",
 )

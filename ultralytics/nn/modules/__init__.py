@@ -172,4 +172,6 @@ __all__ = (
     "C3k2_Faster_CGLU",
     "C3k2_Faster_CGLU_v2",
     "ECAAttention",
+    "VoVGSCSP",
+    "VoVGSCSPC",
 )

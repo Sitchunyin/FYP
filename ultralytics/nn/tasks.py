@@ -67,6 +67,8 @@ from ultralytics.nn.modules import (
     GSConv,
     C3k2_Faster_CGLU,
     C3k2_Faster_CGLU_v2,
+    VoVGSCSP,
+    VoVGSCSPC
     
 
 )

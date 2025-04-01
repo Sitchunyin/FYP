@@ -78,6 +78,8 @@ from .conv import (
     RepConv,
     SpatialAttention,
     GSConv,
+    VoVGSCSP,
+    VoVGSCSPC,
 )
 from .head import OBB, Classify, Detect, Pose, RTDETRDecoder, Segment, WorldDetect, v10Detect
 from .transformer import (
@@ -171,5 +173,6 @@ __all__ = (
     "C3k2_Faster_CGLU",
     "C3k2_Faster_CGLU_v2",
     "ECAAttention",
-
+    "VoVGSCSP",
+    "VoVGSCSPC",
 )

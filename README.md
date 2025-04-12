@@ -6,14 +6,18 @@ This repository is the code use for the model training
 
 <summary>Installation:</summary>
 Install the ultralytics package, including all requirements, in a Python>=3.8 environment with PyTorch>=1.8. By the following code:
+```bash
 pip install ultralytics
+```
 
 then clone the content of this repository to use the custom model.
 
 
 <summary>Usage:</summary>
+
 User could use the 'model training.ipynb' for custom model training and model testing
 
+<br>
 You can use Ultralytics YOLO directly from the Command Line Interface (CLI) with the `yolo` command:
 
 ```bash
@@ -21,11 +25,10 @@ You can use Ultralytics YOLO directly from the Command Line Interface (CLI) with
 yolo predict model=yolo11n.pt source='https://ultralytics.com/images/bus.jpg'
 ```
 
-The `yolo` command supports various tasks and modes, accepting additional arguments like `imgsz=640`. Explore the YOLO [CLI Docs](https://docs.ultralytics.com/usage/cli/) for more examples.
 
 ### Python
 
-Ultralytics YOLO can also be integrated directly into your Python projects. It accepts the same [configuration arguments](https://docs.ultralytics.com/usage/cfg/) as the CLI:
+Ultralytics YOLO can also be integrated directly into your Python projects:
 
 ```python
 from ultralytics import YOLO
@@ -52,4 +55,4 @@ results[0].show()  # Display results
 path = model.export(format="onnx")  # Returns the path to the exported model
 ```
 
-Discover more examples in the YOLO [Python Docs](https://docs.ultralytics.com/usage/python/).
+

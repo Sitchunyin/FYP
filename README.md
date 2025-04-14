@@ -4,6 +4,11 @@ KWS2401 – Robotic system development
 This project is about implementing a rodent detection model for a rodent monitoring system base on YOLOv11
 This repository is the code use for the model training
 
+This project is using a custom dataset from Roboflow, including 3507 thermal images, devided into a training set(2454 images), a testing set(351 images) and a validation set(702 images)
+This is the link to the chosed dataset:
+https://app.roboflow.com/fyp-mouse-dataset/3316base-custom-thermal/3
+
+
 <summary>Installation:</summary>
 Install the ultralytics package, including all requirements, in a Python>=3.8 environment with PyTorch>=1.8. By the following code:
 ```bash

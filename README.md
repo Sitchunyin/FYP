@@ -18,6 +18,7 @@ The basic real-time detection program(realtime_detect.py) and recording program(
 
 <summary>Installation:</summary>
 Install the ultralytics package, including all requirements, in a Python>=3.8 environment with PyTorch>=1.8. By the following code:
+
 ```bash
 pip install ultralytics
 ```

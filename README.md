@@ -10,6 +10,8 @@ https://app.roboflow.com/fyp-mouse-dataset/3316base-custom-thermal/3
 
 A few pretrained model is provided in the Pretrained Model file, user can adjust the model path to make use of the pre-trained model.
 
+The basic real-time detection program(realtime_detect.py) and recording program(recording.py) is provide in the repository.
+
 <summary>Installation:</summary>
 Install the ultralytics package, including all requirements, in a Python>=3.8 environment with PyTorch>=1.8. By the following code:
 ```bash

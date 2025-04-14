@@ -8,6 +8,7 @@ This project is using a custom dataset from Roboflow, including 3507 thermal ima
 This is the link to the chosed dataset:
 https://app.roboflow.com/fyp-mouse-dataset/3316base-custom-thermal/3
 
+A few pretrained model is provided in the Pretrained Model file, user can adjust the model path to make use of the pre-trained model.
 
 <summary>Installation:</summary>
 Install the ultralytics package, including all requirements, in a Python>=3.8 environment with PyTorch>=1.8. By the following code:

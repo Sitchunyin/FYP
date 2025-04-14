@@ -8,6 +8,8 @@ This project is using a custom dataset from Roboflow, including 3507 thermal ima
 This is the link to the chosed dataset:
 https://app.roboflow.com/fyp-mouse-dataset/3316base-custom-thermal/3
 
+The modification is mainly focus on the .yaml configuration file(ultralytics/cfg/models/11) and the module library(ultralytics/nn).
+
 A few pretrained model is provided in the Pretrained Model file, user can adjust the model path to make use of the pre-trained model.
 
 The basic real-time detection program(realtime_detect.py) and recording program(recording.py) is provide in the repository.

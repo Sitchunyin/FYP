@@ -11,6 +11,7 @@ https://app.roboflow.com/fyp-mouse-dataset/3316base-custom-thermal/3
 The modification is mainly focus on the .yaml configuration file(ultralytics/cfg/models/11) and the module library(ultralytics/nn).
 
 A few pretrained model is provided in the Pretrained Model file, user can adjust the model path to make use of the pre-trained model.
+Model specification is include in the model_specification.xlsx, user could asccess for the P_Curve, R_Curve, training result and mAP of each model.
 
 The basic real-time detection program(realtime_detect.py) and recording program(recording.py) is provide in the repository.
 
